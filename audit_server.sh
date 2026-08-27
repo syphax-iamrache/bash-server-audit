@@ -90,3 +90,5 @@ else
     echo "⚠ La commande 'mail' n'est pas installée."
 fi
 
+#ceci est un test 
+echo "test"

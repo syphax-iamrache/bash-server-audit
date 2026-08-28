@@ -35,4 +35,4 @@ Collez ici les logs ou messages d'erreur.
 
 ## Informations supplémentaires
 
-<!-- Ajoutez ici toute information utile. -->
+<!-- Ajoutez ici toute information utile pour comprendre ou reproduire le problème. -->

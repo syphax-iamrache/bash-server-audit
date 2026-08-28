@@ -90,4 +90,6 @@ else
     echo "⚠ La commande 'mail' n'est pas installée."
 fi
 
+## --- un tester après avoir ajouter le template dans main 
+echo "salut salut"
  

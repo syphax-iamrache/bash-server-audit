@@ -1,3 +1,12 @@
+---
+
+name: Bug Report
+about: Signaler un problème rencontré avec le script
+title: "[BUG] "
+labels: bug
+assignees: ''
+-------------
+
 ## Description du problème
 
 <!-- Décris clairement le problème rencontré. -->
@@ -26,4 +35,4 @@ Collez ici les logs ou messages d'erreur.
 
 ## Informations supplémentaires
 
-<!-- Ajoutez ici toute information utile pour comprendre ou reproduire le problème. -->
+<!-- Ajoutez ici toute information utile. -->

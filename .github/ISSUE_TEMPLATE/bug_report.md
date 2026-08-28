@@ -5,7 +5,7 @@ about: Signaler un problème rencontré avec le script
 title: "[BUG] "
 labels: bug
 assignees: ''
--------------
+---
 
 ## Description du problème
 

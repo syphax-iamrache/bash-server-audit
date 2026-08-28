@@ -90,5 +90,4 @@ else
     echo "⚠ La commande 'mail' n'est pas installée."
 fi
 
-#ceci ce n'est qu'un test 
-echo "test" 
+ 

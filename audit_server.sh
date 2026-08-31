@@ -4,8 +4,17 @@ set -uo pipefail
 
 DATE=$(date +"%Y-%m-%d_%H-%M-%S")
 RAPPORT="rapport_audit_${DATE}.txt "
-SEUIL_DISQUE=80
+CONFIG_FILE="./config.conf"
 EMAIL_DESTINATAIRE="syphax@example.com"
+
+# --- Chargement de la configuration ---
+if [ -f "$CONFIG_FILE" ]; then
+    source "$CONFIG_FILE"
+else
+    echo "⚠ Erreur : fichier de configuration introuvable : $CONFIG_FILE"
+    exit 1
+fi
+
 
 #une fonction qui va nous permettre de mettre le titre à chaque fois  dans le rapport
 section(){
